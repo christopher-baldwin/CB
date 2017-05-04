@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities build="b3111" majorVersion="0" minorVersion="0" modelPersistenceProviderPackage="PostgresPersistenceProviderPackage" revision="0" schemaVersion="1000">
     <Mashups>
-        <Mashup aspect.isResponsive="true" aspect.mashupType="mashup" columns="0.0" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-05-04T08:11:56.229-04:00" name="chris" projectName="" rows="0.0" tags="">
+        <Mashup aspect.isResponsive="true" aspect.mashupType="mashup" columns="0.0" description="" documentationContent="" homeMashup="" lastModifiedDate="2017-05-04T08:12:55.278-04:00" name="chris" projectName="" rows="0.0" tags="">
             <Owner name="Administrator" type="User"/>
             <avatar/>
             <DesignTimePermissions>
@@ -26,58 +26,38 @@
     "Widgets" : [ {
       "Widgets" : [ ],
       "Properties" : {
-        "YAxisLabels" : 2,
-        "Left" : 355,
+        "LabelFormat" : "",
+        "Left" : 345,
         "ShowDataLoading" : true,
-        "ShowYAxis" : true,
-        "YAxisIntervals" : 10,
-        "XAxisFormat" : "0000.0",
-        "ShowXAxisTicks" : true,
-        "XAxisMaximum" : 100,
-        "AllowXAxisZoom" : true,
-        "ShowYAxisLabels" : true,
-        "MinimumBubbleSize" : 4,
-        "Z-index" : 10,
-        "XAxisLabels" : 2,
-        "YAxisMaximum" : 100,
-        "__TypeDisplayName" : "Bubble Chart",
-        "YAxisMinimum" : 0,
-        "Area" : "UI",
-        "ShowYAxisTicks" : true,
-        "NormalizeBubbleSize" : true,
-        "XAxisIntervals" : 10,
-        "Top" : 65,
-        "Id" : "bubblechart-1",
-        "BubbleStyle8" : "DefaultChartStyle8",
-        "XAxisMinimum" : 0,
-        "BubbleStyle7" : "DefaultChartStyle7",
-        "BubbleStyle6" : "DefaultChartStyle6",
-        "BubbleStyle5" : "DefaultChartStyle5",
-        "YAxisMinorTicks" : 1,
-        "SingleDataSource" : false,
-        "ShowXAxisLabels" : true,
-        "YAxisMode" : "single",
+        "SingleDataSource" : true,
+        "ChartTitleStyle" : "DefaultChartTitleStyle",
+        "ChartStyle" : "DefaultChartStyle",
+        "SelectedItemStyle" : "DefaultChartSelectionStyle",
+        "ChartLegendStyle" : "DefaultChartLegendStyle",
+        "LegendWidth" : 0,
+        "LabelType" : "STRING",
+        "ChartIndicatorStyle" : "DefaultChartIndicatorStyle",
         "Visible" : true,
-        "DisplayName" : "bubblechart-1",
+        "DisplayName" : "piechart-2",
+        "CombineSelectedItemStyle" : false,
         "Height" : 240,
-        "MaximumBubbleSize" : 80,
-        "BubbleStyle4" : "DefaultChartStyle4",
+        "ChartTitle" : "",
         "Width" : 640,
-        "BubbleStyle3" : "DefaultChartStyle3",
-        "YAxisStyle" : "DefaultChartAxisStyle",
-        "BubbleStyle2" : "DefaultChartStyle2",
-        "BubbleStyle1" : "DefaultChartStyle1",
-        "AllowYAxisZoom" : true,
-        "YAxisZeroscale" : false,
-        "XAxisZeroscale" : false,
-        "XAxisSmoothScaling" : true,
+        "EnableHover" : true,
+        "ValueFormat" : "0000.0",
         "AllowSelection" : true,
         "ResponsiveLayout" : true,
-        "XAxisMinorTicks" : 1,
-        "Type" : "bubblechart",
-        "YAxisAutoscale" : true,
-        "YAxisFormat" : "0000.0",
-        "XAxisAutoscale" : true
+        "Z-index" : 10,
+        "__TypeDisplayName" : "Pie Chart",
+        "Area" : "UI",
+        "Type" : "piechart",
+        "LegendLocation" : "right",
+        "LegendOrientation" : "vertical",
+        "Top" : 190,
+        "ChartAreaStyle" : "DefaultChartAreaStyle",
+        "Id" : "piechart-2",
+        "ChartOrientation" : "vertical",
+        "ShowLegend" : true
       }
     } ],
     "Properties" : {
@@ -86,7 +66,7 @@
       "BGImageRepeat" : "no-repeat",
       "ShowDataLoading" : true,
       "AddToDashboardButtonStyle" : "DefaultAddToDashboardButtonStyle",
-      "id_index" : 1,
+      "id_index" : 2,
       "supportsAutoResize" : true,
       "Visible" : true,
       "DisplayName" : "Mashup",
@@ -154,7 +134,9 @@
 }]]></mashupContent>
             <ConfigurationChanges>
                 <ConfigurationChange changeAction="CREATE" changeReason="header : name : updated&#10;documentation : updated&#10;" timestamp="2017-05-04T08:11:56.229-04:00" user="Administrator"/>
+                <ConfigurationChange changeAction="MODIFY" changeReason="" timestamp="2017-05-04T08:12:55.278-04:00" user="Administrator"/>
             </ConfigurationChanges>
         </Mashup>
     </Mashups>
 </Entities>
+
